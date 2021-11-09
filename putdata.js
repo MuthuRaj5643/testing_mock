@@ -23,12 +23,12 @@ function submitToAPI(e) {
                 return;
             }*/
 
-       var request_id = $("#request_id");
-       var needy_id = $("#needy_id");
-       var needy_name = $("#needy_name");
-       var exam_name = $("#exam_name");
-       var city_name = $("#city_name");
-       var state_name = $("#state_name")
+       var request_id = document.getElementById("request_id").value;
+       var needy_id = document.getElementById("needy_id").value;
+       var needy_name = document.getElementById("needy_name").value;
+       var exam_name = document.getElementById("exam_name").value;
+       var city_name = document.getElementById("city_name").value;
+       var state_name = document.getElementById("state_name").value;
        var data = {
           request_id : request_id,
           needy_id : needy_id,
