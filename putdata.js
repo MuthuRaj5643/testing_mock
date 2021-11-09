@@ -38,7 +38,7 @@ function submitToAPI(e) {
           state_name : state_name
         };
 
-       $.ajax({
+       ajax({
          type: "POST",
          url : "https://4pd78wqu9a.execute-api.us-east-2.amazonaws.com/PostCopy/postneedyrequest",
          dataType: "json",
